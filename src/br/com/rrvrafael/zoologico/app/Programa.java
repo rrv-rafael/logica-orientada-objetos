@@ -10,7 +10,7 @@ public class Programa {
         cachorro.setIdade(2);
         cachorro.setEspecie("Cachorro");
 
-        System.out.println("Olá, seu animal é um " + cachorro.getEspecie() + ", o nome do animal é " + cachorro.getNome() + " e ele tem " + cachorro.getIdade() + " anos de idade.");
+        System.out.println("Olá, seu animal é um " + cachorro.getEspecie() + ", o nome dele é " + cachorro.getNome() + " e ele tem " + cachorro.getIdade() + " anos de idade.");
 
         if (cachorro.animalAdulto()) {
             System.out.println("\nO animal é adulto.");
