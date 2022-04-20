@@ -1,6 +1,6 @@
 package br.com.rrvrafael.zoologico.classes;
 
-public class Animal {
+public abstract class Animal {
     private String nome;
     private String especie;
     private int idade;

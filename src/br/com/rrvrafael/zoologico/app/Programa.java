@@ -1,10 +1,10 @@
 package br.com.rrvrafael.zoologico.app;
 
-import br.com.rrvrafael.zoologico.classes.Animal;
+import br.com.rrvrafael.zoologico.classes.Cachorro;
 
 public class Programa {
     public static void main(String[] args) {
-        Animal cachorro = new Animal();
+        Cachorro cachorro = new Cachorro();
 
         cachorro.setNome("Tobias");
         cachorro.setIdade(2);
