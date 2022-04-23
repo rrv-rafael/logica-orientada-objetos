@@ -1,8 +1,8 @@
-package br.com.rrvrafael.zoologico.app;
+package br.com.rrvrafael.zoologico.exercicios.ex01.app;
 
-import br.com.rrvrafael.zoologico.classes.Dentista;
-import br.com.rrvrafael.zoologico.classes.Paciente;
-import br.com.rrvrafael.zoologico.classes.Pessoa;
+import br.com.rrvrafael.zoologico.exercicios.ex01.classes.Dentista;
+import br.com.rrvrafael.zoologico.exercicios.ex01.classes.Paciente;
+import br.com.rrvrafael.zoologico.exercicios.ex01.classes.Pessoa;
 
 import java.util.Scanner;
 

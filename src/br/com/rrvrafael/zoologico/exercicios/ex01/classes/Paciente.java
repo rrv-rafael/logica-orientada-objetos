@@ -1,4 +1,4 @@
-package br.com.rrvrafael.zoologico.classes;
+package br.com.rrvrafael.zoologico.exercicios.ex01.classes;
 
 public class Paciente extends Pessoa {
     private int codigo;

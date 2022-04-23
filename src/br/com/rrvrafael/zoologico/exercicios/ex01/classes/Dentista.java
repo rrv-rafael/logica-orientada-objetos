@@ -1,4 +1,4 @@
-package br.com.rrvrafael.zoologico.classes;
+package br.com.rrvrafael.zoologico.exercicios.ex01.classes;
 
 public class Dentista extends Pessoa {
     private String especilidade;

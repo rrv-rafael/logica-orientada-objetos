@@ -3,7 +3,12 @@ package br.com.rrvrafael.zoologico.classes;
 public abstract class Animal {
     private String nome;
     private String especie;
-    private int idade;
+    protected int idade;
+    protected boolean estaVivo;
+
+    public Animal() {
+        this.estaVivo = true;
+    }
 
     public String getNome() {
         return nome;
@@ -29,7 +34,21 @@ public abstract class Animal {
         this.idade = idade;
     }
 
+    public boolean isEstaVivo() {
+        return estaVivo;
+    }
+
     public boolean animalAdulto() {
-        return idade >= 1;
+        if (estaVivo) {
+            return idade >= 1;
+        }
+
+        return false;
+    }
+
+    public abstract String emitirSom();
+
+    public final void morrer() {
+        this.estaVivo = false;
     }
 }
