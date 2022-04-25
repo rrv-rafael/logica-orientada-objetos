@@ -9,11 +9,11 @@ import java.util.Scanner;
 
 public class Programa {
     public static void main(String[] args) {
-        /*Scanner scann = new Scanner(System.in);
+        Scanner scann = new Scanner(System.in);
 
-        Programador a = new Programador(scann.nextLine(), scann.nextInt());
+        Programador programador = new Programador(scann.nextLine(), scann.nextInt());
 
-        a.showInfo();*/
+        programador.showInfo();
         Cachorro cachorro = new Cachorro();
         Gato gato = new Gato();
 
