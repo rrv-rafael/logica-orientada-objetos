@@ -1,8 +1,8 @@
 package br.com.rrvrafael.zoologico.classes;
 
-public abstract class Animal {
+public abstract class Animal implements Animavel {
     private String nome;
-    private String especie;
+    protected String especie;
     protected int idade;
     protected boolean estaVivo;
 
@@ -48,6 +48,7 @@ public abstract class Animal {
 
     public abstract String emitirSom();
 
+    @Override
     public final void morrer() {
         this.estaVivo = false;
     }
