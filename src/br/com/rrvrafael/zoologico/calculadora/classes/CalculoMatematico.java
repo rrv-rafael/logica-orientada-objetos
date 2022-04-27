@@ -3,8 +3,8 @@ package br.com.rrvrafael.zoologico.calculadora.classes;
 import br.com.rrvrafael.zoologico.calculadora.interfaces.CalculadorMatematico;
 
 public abstract class CalculoMatematico implements CalculadorMatematico {
-    private final int numero1;
-    private final int numero2;
+    protected final int numero1;
+    protected final int numero2;
 
     public CalculoMatematico(int numero1, int numero2) {
         this.numero1 = numero1;
